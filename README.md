@@ -1,4 +1,4 @@
-# days_of_flutter
+# 100days_of_flutter
 
 A new Flutter project.
 
