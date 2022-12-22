@@ -1,6 +1,6 @@
 # 100days_of_flutter
 
-### please follow the branches on this project
+## Please follow the branches on this project
 * day_1
 
 ## Getting Started
