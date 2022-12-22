@@ -1,6 +1,7 @@
 # 100days_of_flutter
 
-A new Flutter project.
+###please follow the branches on this project
+* day_1
 
 ## Getting Started
 
