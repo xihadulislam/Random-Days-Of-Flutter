@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'FadeAnimation.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -84,41 +85,44 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-
   Widget makeView({image, title, description, page}) {
     return Container(
       decoration: BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage(image),
-              fit: BoxFit.cover
-          )
-      ),
+          image: DecorationImage(image: AssetImage(image), fit: BoxFit.cover)),
       child: Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.bottomRight,
-                stops: [0.3, 0.9],
-                colors: [
-                  Colors.black.withOpacity(.9),
-                  Colors.black.withOpacity(.2),
-                ]
-            )
-        ),
+            gradient:
+                LinearGradient(begin: Alignment.bottomRight, stops: const [
+          0.3,
+          0.9
+        ], colors: [
+          Colors.black.withOpacity(.9),
+          Colors.black.withOpacity(.2),
+        ])),
         child: Padding(
-          padding: EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                SizedBox(
-                  height: 40,
-                ),
+                const SizedBox(height: 40),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   crossAxisAlignment: CrossAxisAlignment.baseline,
                   textBaseline: TextBaseline.alphabetic,
                   children: <Widget>[
-                    FadeAnimation(2, Text(page.toString(), style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
-                    Text('/' + totalPage.toString(), style: TextStyle(color: Colors.white, fontSize: 15),)
+                    FadeAnimation(
+                        2,
+                        Text(
+                          page.toString(),
+                          style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 30,
+                              fontWeight: FontWeight.bold),
+                        )),
+                    Text(
+                      '/$totalPage',
+                      style: const TextStyle(color: Colors.white, fontSize: 15),
+                    )
                   ],
                 ),
                 Expanded(
@@ -126,56 +130,99 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      FadeAnimation(1,
-                          Text(title, style: TextStyle(color: Colors.white, fontSize: 50, height: 1.2, fontWeight: FontWeight.bold),)
-                      ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      FadeAnimation(1.5, Row(
-                        children: <Widget>[
-                          Container(
-                            margin: EdgeInsets.only(right: 3),
-                            child: Icon(Icons.star, color: Colors.yellow, size: 15,),
-                          ),
-                          Container(
-                            margin: EdgeInsets.only(right: 3),
-                            child: Icon(Icons.star, color: Colors.yellow, size: 15,),
-                          ),
-                          Container(
-                            margin: EdgeInsets.only(right: 3),
-                            child: Icon(Icons.star, color: Colors.yellow, size: 15,),
-                          ),
-                          Container(
-                            margin: EdgeInsets.only(right: 3),
-                            child: Icon(Icons.star, color: Colors.yellow, size: 15,),
-                          ),
-                          Container(
-                            margin: EdgeInsets.only(right: 5),
-                            child: Icon(Icons.star, color: Colors.grey, size: 15,),
-                          ),
-                          Text('4.0', style: TextStyle(color: Colors.white70),),
-                          Text('(2300)', style: TextStyle(color: Colors.white38, fontSize: 12),)
-                        ],
-                      )),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      FadeAnimation(2, Padding(
-                        padding: const EdgeInsets.only(right: 50),
-                        child: Text(description, style: TextStyle(color: Colors.white.withOpacity(.7), height: 1.9, fontSize: 15),),
-                      )),
-                      SizedBox(height: 20,),
-                      FadeAnimation(2.5, Text('READ MORE', style: TextStyle(color: Colors.white),)),
-                      SizedBox(height: 30,),
+                      FadeAnimation(
+                          1,
+                          Text(
+                            title,
+                            style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 50,
+                                height: 1.2,
+                                fontWeight: FontWeight.bold),
+                          )),
+                      const SizedBox(height: 20),
+                      FadeAnimation(
+                          1.5,
+                          Row(
+                            children: <Widget>[
+                              Container(
+                                margin: EdgeInsets.only(right: 3),
+                                child: const Icon(
+                                  Icons.star,
+                                  color: Colors.yellow,
+                                  size: 15,
+                                ),
+                              ),
+                              Container(
+                                margin: EdgeInsets.only(right: 3),
+                                child: const Icon(
+                                  Icons.star,
+                                  color: Colors.yellow,
+                                  size: 15,
+                                ),
+                              ),
+                              Container(
+                                margin: const EdgeInsets.only(right: 3),
+                                child: const Icon(
+                                  Icons.star,
+                                  color: Colors.yellow,
+                                  size: 15,
+                                ),
+                              ),
+                              Container(
+                                margin: const EdgeInsets.only(right: 3),
+                                child: const Icon(
+                                  Icons.star,
+                                  color: Colors.yellow,
+                                  size: 15,
+                                ),
+                              ),
+                              Container(
+                                margin: const EdgeInsets.only(right: 5),
+                                child: const Icon(
+                                  Icons.star,
+                                  color: Colors.grey,
+                                  size: 15,
+                                ),
+                              ),
+                              const Text(
+                                '4.0',
+                                style: TextStyle(color: Colors.white70),
+                              ),
+                              const Text(
+                                '(2300)',
+                                style: TextStyle(
+                                    color: Colors.white38, fontSize: 12),
+                              )
+                            ],
+                          )),
+                      const SizedBox(height: 20),
+                      FadeAnimation(
+                          2,
+                          Padding(
+                            padding: const EdgeInsets.only(right: 50),
+                            child: Text(
+                              description,
+                              style: TextStyle(
+                                  color: Colors.white.withOpacity(.7),
+                                  height: 1.9,
+                                  fontSize: 15),
+                            ),
+                          )),
+                      const SizedBox(height: 20),
+                      const FadeAnimation(
+                          2.5,
+                          Text(
+                            'READ MORE',
+                            style: TextStyle(color: Colors.white),
+                          )),
+                      const SizedBox(height: 30),
                     ],
                   ),
                 )
-              ]
-          ),
+              ]),
         ),
       ),
     );
   }
-
 }
