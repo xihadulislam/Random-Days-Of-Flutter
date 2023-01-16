@@ -19,8 +19,8 @@ flutter run
 
 <img src="https://github.com/xihadulislam/100-Days-Of-Flutter/blob/day_1/assets/screenshot/one.png" height="500em" /> &nbsp; <img src="https://github.com/xihadulislam/100-Days-Of-Flutter/blob/day_1/assets/screenshot/two.png" height="500em" />
 
-Branch Link: [Day 1](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_1) |
-Inspiration: [afgprogrammer](https://youtu.be/zTTP8XBR6fI) 
+Branch Link : [Day 1](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_1)   |
+Inspiration : [afgprogrammer](https://youtu.be/zTTP8XBR6fI) 
 
 
 <br/>
@@ -33,8 +33,8 @@ Inspiration: [afgprogrammer](https://youtu.be/zTTP8XBR6fI)
 
 <img src="https://github.com/xihadulislam/100-Days-Of-Flutter/blob/day_2_electrons_orbit/assets/screenshot/one.gif" height="500em" /> &nbsp; <img src="https://github.com/xihadulislam/100-Days-Of-Flutter/blob/day_2_electrons_orbit/assets/screenshot/two.gif" height="500em" />
 
-Branch Link: [Day 2](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_2_electrons_orbit) |
-Inspiration: [flutter4fun](https://flutter4fun.com/ui-challenge-4/) 
+Branch Link : [Day 2](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_2_electrons_orbit)    |
+Inspiration : [flutter4fun](https://flutter4fun.com/ui-challenge-4/) 
 
 
 
