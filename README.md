@@ -78,7 +78,7 @@ Inspiration : [afgprogrammer](https://youtu.be/lff21mmYhvQ)
 <img src="https://github.com/xihadulislam/100-Days-Of-Flutter/blob/day_5_juice_shop/assets/screenshot/juice.png" height="500em" /> 
 
 Branch Link : [Day 5](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_5_juice_shop)    |
-Inspiration : [flutter4fun](https://flutter4fun.com/ui-challenge-4/)
+Inspiration : [flutter4fun](https://youtu.be/o7cBCPWQGyc)
 
 
 
