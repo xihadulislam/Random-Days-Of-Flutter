@@ -1,4 +1,4 @@
-# Day 3- Flutter Trip UI Design
+# Day 3- Flutter Trip View
 
 
 ## Development Setup
