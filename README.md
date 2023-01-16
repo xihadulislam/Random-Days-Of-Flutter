@@ -1,4 +1,4 @@
-# 100 Days Of Flutter Challenge
+# Random 100 Days Of Flutter Challenge
 
 ```
  Please follow the branches on this project
