@@ -26,7 +26,6 @@ Inspiration : [afgprogrammer](https://youtu.be/zTTP8XBR6fI)
 <br/>
 <br/>
 
-
 ## [Day 2 - electron movement in orbit](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_2_electrons_orbit)
 
 ### Screenshots
@@ -35,6 +34,21 @@ Inspiration : [afgprogrammer](https://youtu.be/zTTP8XBR6fI)
 
 Branch Link : [Day 2](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_2_electrons_orbit)    |
 Inspiration : [flutter4fun](https://flutter4fun.com/ui-challenge-4/) 
+
+
+
+<br/>
+<br/>
+
+## [Day 3- Flutter Trip View](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_3_trip_view)
+
+### Screenshots
+
+<img src="https://github.com/xihadulislam/100-Days-Of-Flutter/blob/day_3_trip_view/assets/screenshot/one.png" height="500em" /><img src="https://github.com/xihadulislam/100-Days-Of-Flutter/blob/day_3_trip_view/assets/screenshot/two.png" height="500em" /><img src="https://github.com/xihadulislam/100-Days-Of-Flutter/blob/day_3_trip_view/assets/screenshot/three.png" height="500em" />
+
+Branch Link : [Day 4](https://github.com/xihadulislam/100-Days-Of-Flutter/tree/day_3_trip_view)    |
+Inspiration : [afgprogrammer](https://youtu.be/uqm6U5_bcH0) 
+
 
 
 
