@@ -8,6 +8,6 @@ flutter run
 ```
 
 
-## ScreenShot
+## Screenshot
 
 <img src="assets/screenshot/juice.png" height="500em" />
