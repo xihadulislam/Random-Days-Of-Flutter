@@ -1,4 +1,4 @@
-## Flutter Inspiration App UI Design -Day 1
+## Day 1 - Flutter Inspiration App UI Design
 
 
 ## Development Setup
